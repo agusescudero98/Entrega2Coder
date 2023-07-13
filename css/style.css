@@ -122,11 +122,6 @@ body {
   box-shadow: 2px 2px 4px #e6e6e6;
   text-align: center;
 }
-
-.boldHighlight{
-  font-weight: bolder;
-  font-style: normal;
-  }
   
   
 .consolesFlex img{
@@ -152,6 +147,26 @@ body {
 .pink-button a{
     text-decoration: none;
     color: #ffffff;
+}
+
+.title{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin: 20px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 2px 2px 4px #230413;
+}
+
+.welcome-message p{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin: 20px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #ffffff;
 }
 
 .form {
@@ -199,6 +214,23 @@ body {
   margin-left: 5px;
 }
 
+.carousel {
+  display: flex;
+  margin: 40px;
+  width: 100%;
+  justify-content: center;
+}
+
+.carousel-inner{
+  width: 700px;
+  border-radius: 40px;
+}
+
+.carousel button{
+  width: 600px;
+}
+
+
 
 @media (min-width: 576px){
   .form {
@@ -210,13 +242,6 @@ body {
   }
 }
   
-  
-.footer-about{
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-}  
 
 .footer-content {
     background-color: #f09dbf;
@@ -233,8 +258,6 @@ body {
     width: 100px;
     height: auto;
     display: flex;
-    justify-content: center;
-    align-content: center;
 }
   
 .footer-text p {
@@ -249,8 +272,6 @@ body {
     height: 40px;
     margin-top: 5px;
 }
-
-
 
   
 .social-media a {

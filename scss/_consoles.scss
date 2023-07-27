@@ -1,0 +1,27 @@
+.consolesFlex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: $color-console;
+      div {
+          @extend %consolesCards;
+      }
+      img {
+          height: 200px;
+          border-radius: $border-radius;
+          width: 100%;
+      }
+}
+
+.pink-button {
+    display: flex;
+    justify-content: center;
+    button{
+        @include button(#e75fb7,#fff)
+    }
+    a {
+        text-decoration: none;
+        color: #ffffff;
+    }
+}
+    

@@ -1,0 +1,39 @@
+.form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    gap: 20px;
+    .info {
+      display: grid;
+      gap: 5px;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+    input[type="text"],
+    input[type="number"],
+    input[type="email"],
+    input[type="tel"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      }
+    textarea {
+      resize: vertical;
+    }
+    .info-terms {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+      label {
+          margin-left: 5px;
+      }
+  
+  }

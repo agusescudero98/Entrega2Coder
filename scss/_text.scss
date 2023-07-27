@@ -1,0 +1,19 @@
+.title{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 20px;
+    font-weight: $font-weight-title;
+    color: #fff;
+    text-shadow: 2px 2px 4px #230413;
+  }
+  
+  .welcome-message p{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #ffffff;
+  }

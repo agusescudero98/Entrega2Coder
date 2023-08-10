@@ -1,29 +1,27 @@
 @media(max-width:600px){
-    .nav .menu{
-      display: block;
-      display: flex;
-      justify-content: start;
-      margin: 3px 15px;
-      font-size: 15px;
-      color: #ffffff;
-    }
+  .nav .menu{
+  display: block;
+  display: flex;
+  justify-content: start;
+  margin: 3px 15px;
+  font-size: 16px;
+  color: #ffffff;
+  }
+  .nav .menu:hover + .left-section{
+  left: 0;
+  }
+  .left-section:hover{
+  left: 0px;
+  }
+  .left-section{
+  position: fixed;
+  background-color: #9470bb;
+  width: 50vw;
+  height: 100vh;
+  top: 0;
+  left: -500px;
+  }
   
-    .nav .menu:hover + .left-section{
-       left: 0;
-    }
-  
-    .left-section:hover{
-      left: 0px;
-    }
-  
-    .left-section{
-      position: fixed;
-      background-color: #9470bb;
-      width: 50vw;
-      height: 100vh;
-      top: 0;
-      left: -500px;
-    }
   
   
     

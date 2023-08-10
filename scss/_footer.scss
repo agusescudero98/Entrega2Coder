@@ -7,20 +7,21 @@
     flex-direction: column;
     justify-content: center;
     .logo img {
-        width: 100px;
-        height: auto;
-        display: flex;
+    width: 100px;
+    height: auto;
+    display: flex;
     }
     .footer-text p {
-        margin: 10px 0;
-        font-size: 15px;
+    margin: 10px 0;
+    font-size: 15px;
     }
     .subscribe button{
-        @include button(#fff,#5e0b2f)
+    @include button(#fff,#5e0b2f)
     }
     .social-media a {
-        color: #fff;
-        text-decoration: none;
-        margin-right: 10px;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
     }
-}
+    }
+    

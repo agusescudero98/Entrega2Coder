@@ -1,13 +1,14 @@
 %consolesCards{
-    width: 200px;
-          padding: 10px;
-          margin: 12px;
-          border-radius: 10px;
-          background-color: #f6f6f6;
-          box-shadow: 2px 2px 4px #e6e6e6;
-          text-align: center;
-          &:hover{
-            transform: translate(2px,3px);
-          }
-          transition: 0.5s;
-}
+  width: 200px;
+  padding: 10px;
+  margin: 12px;
+  border-radius: 10px;
+  background-color: #f6f6f6;
+  box-shadow: 2px 2px 4px #e6e6e6;
+  text-align: center;
+  &:hover{
+  transform: translate(2px,3px);
+  }
+  transition: 0.5s;
+  }
+  

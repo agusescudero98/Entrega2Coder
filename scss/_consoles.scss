@@ -17,6 +17,7 @@
 .pink-button {
     display: flex;
     justify-content: center;
+    margin: 10px;
     button{
         @include button(#e75fb7,#fff)
     }

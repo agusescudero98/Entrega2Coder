@@ -8,9 +8,15 @@
     text-shadow: 2px 2px 4px #230413;
   }
   
+  .welcome-message {
+    align-items: center;
+    display: flex;
+    margin: 20px;
+  }
+  
   .welcome-message p{
     display: flex;
-    width: 100%;
+    align-items: center;
     justify-content: center;
     margin: 20px;
     padding: 30px;
